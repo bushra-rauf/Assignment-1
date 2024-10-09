@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height:100vh;
+}
+
+body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #202C59;
+    margin: 0;
+    padding: 24px;
+    color:#fff;
+    text-align: center; 
+    display: inline;
+    
+}
+
+.header__page-title {
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    display: inline;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #5f9cec;
+    padding:10px;
+}
+
+.nav a {
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size:1.5rem ;
+}
+.nav a:hover {
+    color:rgb(113, 106, 110);
+    font-size: 2rem;
+}
+
+.mobile__trigger {
+    background-color: #751d3c;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    padding: 8px;
+}
+.mobile__target {
+    position: absolute;
+    right: 100%;
+    transition-duration: .5s;
+    width:100%;
+    z-index: 10;
+}
+.mobile__trigger:hover  + .mobile__target {
+    left: 0;
+}
+
+.nav-menu {  
+    display:flex;
+    justify-content: space-around;
+    padding: 16px;
+    font-size: 20px;
+  } 
+  
+.main {
+    flex-grow: 1;
+    display:flex;
+    background-image: url('../images/fitness-1.jpg');   
+    height: 600px; 
+    width: 100%;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    align-items: center;
+    color:#fff;
+    
+}
+h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color:#172454;
+    text-decoration: solid;
+
+}
+
+.footer {
+    background-color: #202C59;
+    margin: 0;
+    padding: 0px;
+    color:#fff;
+    text-align: center;
+    } 
+
+    /* @media screen and (min-width: 768px) { */
+
+    /* } */
+        
+    
