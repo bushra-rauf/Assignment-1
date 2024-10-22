@@ -55,6 +55,11 @@ body {
     color:cornsilk; 
 
 }
+
+.nav a:active {
+    color: #ff4;
+
+}
     
 .main-containerrow {
     flex-grow: 1;

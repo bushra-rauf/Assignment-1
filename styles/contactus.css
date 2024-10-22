@@ -51,11 +51,16 @@ body {
     text-decoration: none;
     padding:10px 15px;
     
+    
 }
 
 .nav a:hover {
-    color:#190606f0;
-    font-size: 2rem;
+    color:#100e0ef0;
+    
+}
+
+.nav a:active {
+    color: #ff4;
 
 }
 
