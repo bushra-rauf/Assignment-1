@@ -50,6 +50,7 @@ body {
     font-size: 2rem;
 }
 
+<<<<<<< Updated upstream:styles/fitness-resort.css
 .mobile__trigger {
     background-color: #751d3c;
     color:#fff;
@@ -66,6 +67,16 @@ body {
 }
 .mobile__trigger:hover  + .mobile__target {
     left: 0;
+=======
+.nav a:hover {
+    color: black;
+    
+}
+
+.nav a:active {
+    color: #ff4;
+
+>>>>>>> Stashed changes:styles/fitness-center.css
 }
 
 .nav-menu {  
