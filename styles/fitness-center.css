@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height:100vh;
+}
+
+body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #202C59;
+    margin: 0;
+    padding: 24px;
+    color:#fff;
+    text-align: center; 
+    display: inline;
+    
+}
+
+.header__page-title {
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    display: inline;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #3265a8;
+    padding: 10px;
+
+}
+
+.nav a {
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size:1.5rem ;
+
+}
+
+.nav a:hover {
+    color: black;
+    
+}
+
+.active, a:hover{
+    background-color: #04AA6D;
+
+}
+
+
+.nav-menu {  
+    display:flex;
+    justify-content: space-around;
+    padding: 16px;
+    font-size: 20px;
+} 
+  
+section {
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.main {
+    flex-grow: 1;
+    display:flex;    
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    align-items: center;
+    color:#fff;
+    font-family: "Nunito-Sans";
+    
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+    
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color:#172454;
+    text-decoration: solid;
+
+}
+
+.footer {
+    background-color: #202C59;
+    margin: 0;
+    padding: 0px;
+    color:#fff;
+    text-align: center;
+} 
+
+ @media screen and (max-width: 768px) {
+    .main {
+            background-image: url(../images/fitness-1.jpg);
+            background-position:35% center;
+    }
+}
+   
