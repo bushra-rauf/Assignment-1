@@ -53,11 +53,10 @@ body {
     
 }
 
-.active, a:hover{
-    background-color: #04AA6D;
+.nav a:active {
+    color: #ff4;
 
 }
-
 
 .nav-menu {  
     display:flex;
