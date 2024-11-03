@@ -53,20 +53,11 @@ body {
     
 }
 
-<<<<<<< HEAD
-.active, a:hover{
-    background-color: #04AA6D;
-
-}
-
-
-=======
 .nav a:active {
     color: #ff4;
 
 }
 
->>>>>>> 110fe21d3ec7470b25bf7f7a8c332b5a6756521b
 .nav-menu {  
     display:flex;
     justify-content: space-around;
