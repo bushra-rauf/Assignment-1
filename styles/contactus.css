@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 html {
    min-height:100vh;
@@ -15,8 +15,8 @@ body {
     width:100%;
     
 }
-
-.header {
+/* 
+.header { 
     background-color: #202C59;
     margin: 0;
     padding: 24px;
@@ -61,7 +61,7 @@ body {
 .active, a:active {
     background-color: rgb(21, 126, 49);
 
-}
+}  */
 
 .main-container {
     flex-grow: 1;
@@ -137,14 +137,14 @@ button:hover {
 
 }
 
-.footer {
+/* .footer {
     background-color: #202C59;
     padding: 16px;
     text-align: center;
     color: #fff;
     margin:0;
 
-}
+} */
 
 @media (max-width: 768px) { 
     .main-container {

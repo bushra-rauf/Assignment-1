@@ -1,10 +1,10 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
-html {
+/* html {
     height:100vh;
-}
+}   */
 
 body {
     height:100%;
@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 
-.header {
+/* .header {
     background-color: #202C59;
     margin: 0;
     padding: 24px;
@@ -21,16 +21,16 @@ body {
     text-align: center; 
     display: inline;
     
-}
+}  */
 
-.header__page-title {
+/* .header__page-title {
     font-size: 3.5rem;
     color: #fff;
     text-align: center;
     display: inline;
 
-}
-
+} */
+/* 
 .nav {
     display: flex;
     justify-content: space-around;
@@ -56,7 +56,7 @@ body {
 .active, a:active {
     background-color: rgb(21, 126, 49);
 
-}
+}  */
 
 .nav-menu {  
     display:flex;
@@ -101,13 +101,13 @@ h3 {
 
 }
 
-.footer {
+/* .footer {
     background-color: #202C59;
     margin: 0;
     padding: 0px;
     color:#fff;
     text-align: center;
-} 
+}  */
 
  @media screen and (max-width: 768px) {
     .main {
