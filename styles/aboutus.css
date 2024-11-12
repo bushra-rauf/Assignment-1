@@ -96,6 +96,8 @@ body {
 }
 .staff img {
     border-radius: 109px;
+    width: 200px;
+    height: 200px;
 
 }
 .facilities {
