@@ -4,17 +4,19 @@ body {
     flex-direction: column;
     margin: 0;
 }
+
 .nav-menu {  
     display:flex;
     justify-content: space-around;
     padding: 16px;
     font-size: 20px;
-} 
-  section {
+}
+
+section {
     flex-grow: 1;
     display: flex;
-
 }
+
 .main {
     flex-grow: 1;
     display:flex;    
@@ -26,23 +28,23 @@ body {
     align-items: center;
     color:#fff;
     font-family: "Nunito-Sans";
-    
 }
+
 .back-video {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1; 
-    
 }
+
 h3 {
     font-size: 40px;
     text-transform: capitalize;
     color:#172454;
     text-decoration: solid;
-
 }
- @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .main {
             background-image: url(../images/fitness-1.jpg);
             background-position:35% center;
